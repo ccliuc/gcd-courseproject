@@ -6,12 +6,12 @@ This repo contains the files for the Course Project of Getting and Cleaning Data
 * "tidy_data_set.txt". This text file contains the tidy data set submitted for part 1 of this course project.
 * "code book.md". This markdown file is the code book that indicates all the variables and summaries calculated, along with units, and any other relevant information in the tidy data set.
 
-# How to run "run_analysis.R"
+## How to run "run_analysis.R"
 Before running the script "run_analysis.R", first make sure the unzipped Samsung data folder "UCI HAR Dataset" is in the same working directory of this script. This scirpt requires library "data.table", please run "install.packages("data.table")" in R if you haven't installed this package. 
 
 To run the script "run_analysis.R", please type "source("run_analysis.R")". 
 
-# How "surn_analysis.R" works
+## How "run_analysis.R" works
 "run_analysis.R" does the following 5 steps each of which corresponds to the step requested in the course project. Detailed explanations for each step can be read inside the script as well.
 
 1. Merges the training and the test sets to create one data set.
