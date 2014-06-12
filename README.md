@@ -3,7 +3,7 @@ gcd-courseproject
 This repo contains the files for the Course Project of Getting and Cleaning Data Coursera course.
 * "README.md". This readme file decribles about what the script "run_analysis.R" did.
 * "run_analysis.R". This script produces the data set file "tidy_data_set.txt" as long as the Samsung data used in this course project is in the working directory.
-* "tidy_data_set.txt". This text file contains the tidy data set submitted for part 1 of this course project.
+* "tidy_data_set.txt". This text file contains the tidy data set submitted for part 1 of this course project. The data can be read into R via read.table command with "header=T".
 * "code book.md". This markdown file is the code book that indicates all the variables and summaries calculated, along with units, and any other relevant information in the tidy data set.
 
 ## How to run "run_analysis.R"
