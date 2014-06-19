@@ -4,9 +4,11 @@ Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTA
 Using its embedded accelerometer and gyroscope, 3-axial linear acceleration and 3-axial angular velocity were captured. 
 The sensor acceleration signal, was separated into body acceleration and gravity.
 A vector of features was obtained by calculating variables from the time and frequency domain.
+According to the description of the study, features are normalized and bounded within [-1,1]. This means that with all the viriables, the data has been
+divided by its range to normalise it. Hence, the units of the variables are cancelled out leaving with ratios.
 
 The tidy data set submitted for course project part 1 contains 81 columns. The data set provides the average of each mean and standard deviation
-measurement in each activity for each subject/volunteer. The unit for variables 3-81 is Hz.
+measurement in each activity for each subject/volunteer. With variables 3-81, the data are ratios.
 
 
 1. activity: Activity Name
